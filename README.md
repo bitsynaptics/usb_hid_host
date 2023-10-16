@@ -15,8 +15,11 @@ Sample projects are available for the following boards to demonstrate the usage 
 * [Tang Nano 20K](boards/tang-nano-20k/) (Gowin GW2A FPGA). Gowin IDE project file `usb_hid_proj.gprj` is provided. Simply open it in Gowin IDE and build the project. 
 * [IceSugar-Pro](boards/icesugar-pro/) and [Machdyne Schoko](boards/schoko/) (Lattice ECP5). These come with Makefiles for the open source Yosys/nextpnr toolchain. 
 * [iCEBreaker](boards/icebreaker) and [Machdyne Riegel](boards/riegel/) (Lattice iCE40), also building with Yosys/nextpnr.
+* [icePie](boards/icepie) support - requires shorting FB22 jumper for providing +5v to the VUSB connector.
 
-Connect your USB devices and expect results similar to the following.
+Keyboard keypress / Mouse movements are output on the USB serial terminal at 115200 bauds.
+
+Connect your USB devices and expect results similar to the following. 
 
 <img src='doc/usb_hid_host_demo.png' width=450> <img src='doc/usb_hid_host_setup.jpg' width=380>
 
